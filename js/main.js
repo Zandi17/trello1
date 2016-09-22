@@ -11,14 +11,14 @@ window.addEventListener("load", function() {
 		form.style.display = 'block'
 		});
 		
-		// boton.addEventListener("click",function(e){
-		// e.preventDefault();
-		// var contenido = texto.value;
-		// cuadro1.innerHTML = contenido;
-		// form.style.display = 'none';
-		// lista.style.display = 'none';
-		// cuadro.style.display ='block'
-		// })
+		boton.addEventListener("click",function(e){
+		e.preventDefault();
+		var contenido = texto.value;
+		cuadro1.innerHTML = contenido;
+		form.style.display = 'none';
+		lista.style.display = 'none';
+		cuadro.style.display ='block'
+		})
 
 		// var	cuadroUno = document.getElementById("cuadroUno");
 		// cuadroUno.addEventListener("click", function(e){
