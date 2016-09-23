@@ -9,27 +9,30 @@
   <link rel="stylesheet" href="css/signin.css">
 </head>
 <body>
+<header>
+  <img src="img/nav.png" alt="">
+</header>
 <div class="container-fluid">
 
-    <h1>Trello</h1>
-    <div id="contenedor">
+    <h1>Nueva Sesion</h1>
+    <div id="contenedor" class="conten">
     <span id="lista">Añadir una lista ....</span>
       <form id="formulario" class="none">
-        <input id="texto" type="text" placeholder="Añadir una lista ...">
-        <button id="boton">Guardar</button>
+        <input id="texto" type="text" placeholder="Añadir una lista ..." class="control ipt">
+        <button id="boton" class="btn btn-default">Guardar</button>
         <span id="icono" class="icon-cross"></span>
       </form>
       <div id="cuadro" class="none">
         <div id="cuadro1"></div>
         <div id="cuadro2" >Añadir una Tarjeta ...</div>
       </div>
-      <!-- <div id="cuadroUno"> 
-          <div id="cuadro1"></div>
-          <textarea name="parrafo" id="parrafo" cols="30" rows="10"></textarea><br>
-          <button id="botonUno">Añadir</button>
+      <div id="cuadroUno" class="none"> 
+          <div id="caja1"></div>
+          <textarea name="parrafo" id="parrafo" cols="20" rows="5"></textarea><br>
+          <button id="botonUno" class="btn btn-default">Añadir</button>
           <span id="icono" class="icon-cross"></span>
       </div>
-    </div> -->
+    </div>
 </div>
     <script  type='text/javascript' src='js/jquery.min.js'></script>
     <script  type='text/javascript' src='js/bootstrap.min.js'></script>

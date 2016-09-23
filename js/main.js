@@ -13,19 +13,25 @@ window.addEventListener("load", function() {
 		
 		boton.addEventListener("click",function(e){
 		e.preventDefault();
-		var contenido = texto.value;
-		cuadro1.innerHTML = contenido;
+		titulo();
 		form.style.display = 'none';
 		lista.style.display = 'none';
 		cuadro.style.display ='block'
 		})
 
-		// var	cuadroUno = document.getElementById("cuadroUno");
-		// cuadroUno.addEventListener("click", function(e){
-		// e.preventDefault();
+		var	cuadroUno = document.getElementById("cuadroUno");
+		cuadro2.addEventListener("click", function(e){
+		e.preventDefault();
+		titulo();
+		cuadro.style.display = 'none';
+		cuadroUno.style.display = 'block';
 		
-		// })
+		});
 
+		function titulo(){
+		var contenido = texto.value;
+		cuadro1.innerHTML = contenido;
+		}
 });
 
 

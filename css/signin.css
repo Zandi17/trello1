@@ -4,16 +4,58 @@ body{
 }
 #formulario{
 	display: none;
-}
-.ipt{
-	width: 190px;
-	height: 40px;
+	border-radius: 	5px;
+	height: 80px;
+	width: 	190px;
+	color: 	black;
+	background: #778899;
+	padding: 5px;
 }
 .none {
 	display: none;
 }
-
-
+img{
+	width: 100%;
+}
+#lista{
+	display: inline-block;
+	border-radius: 	5px;
+	height: 40px;
+	width: 	190px;
+	color: 	white;
+	background: #778899;
+	padding: 10px;
+}
+#lista:hover{
+	background: #B0C8DE;
+}
+.ipt{
+	display: block;
+}
+#cuadro{
+	border-radius: 	5px;
+	height: 60px;
+	width: 	190px;
+	color: 	white;
+	background: #778899;
+	padding: 10px;
+}
+#cuadro2:hover{
+	background: #B0C8DE;
+	border-radius: 5px;
+	width: 	160px;
+}
+#texto{
+	border-radius: 5px;
+}
+#cuadroUno{
+	border-radius: 	5px;
+	height: 160px;
+	width: 	190px;
+	color: 	white;
+	background: #778899;
+	padding: 10px;
+}
 
 /*body{
   background: url(../img/indie2.jpg);
